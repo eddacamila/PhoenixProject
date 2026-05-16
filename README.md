@@ -25,13 +25,3 @@ Camila Rodríguez.
 **Métrica principal:** El modelo se optimiza utilizando el **AUC-ROC** (Ãrea bajo la curva de la caracterí­stica operativa del receptor). Esta métrica es fundamental en este contexto porque permite evaluar el rendimiento del modelo en datos asimétricos o desbalanceados, donde la exactitud simple no es confiable.
 
 ---
-
-### Datos interesantes según el análisis exploratorio previo (Incorporado en este notebook):
-
-El documento destaca que ya identificaron variables crÃ­ticas que "separan" bien el fraude:
-
-* El **Producto C** tiene la tasa más alta de fraude (~12%).
-
-* Las **tarjetas de crédito** son m-as vulnerables (~7%) que las de dÃ©bito.
-
-* El uso de **dispositivos móviles** duplica el riesgo de fraude en comparaciÃ³n con computadoras de escritorio (*desktop*).
