@@ -282,7 +282,7 @@ st.markdown(
     """
     <div class="hero">
       <div class="badge">Cargado desde model_export</div>
-      <h1>Demo de puntuación de fraude con XGBoost</h1>
+      <h1>Demo de puntuación de fraude con modelo Ensembler</h1>
       <p>
         Explora un evaluador de fraude en vivo construido a partir del artefacto XGBoost exportado en
         <strong>model_export</strong>. La app carga el modelo y el imputador guardados al iniciar y luego
