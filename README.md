@@ -29,7 +29,8 @@ El proyecto utiliza el conjunto de datos de la competencia **IEEE-CIS Fraud Dete
 | Métrica principal | AUC-ROC |
 
 El alto desbalance de clases hace que la exactitud simple no sea una métrica confiable. Por esta razón, el modelo se evalúa principalmente con **AUC-ROC**, complementado con **precisión promedio (AP)** y **F1-score**.
-
+## Metodología
+![Guìa gráfica metodología](./imagenes/explicacion_metodoligo.jpeg)
 ## Resultados
 
 El benchmarking propuesto comparó modelos supervisados eficientes para datos tabulares: **XGBoost**, **LightGBM**, **Random Forest** y un **Ensamble Ponderado Phoenix**. La validación se realizó con un split temporal, usando el 80% de las transacciones más antiguas para entrenamiento y el 20% más reciente para validación.
@@ -42,6 +43,8 @@ El benchmarking propuesto comparó modelos supervisados eficientes para datos ta
 | Ensamble Ponderado Phoenix | **0.9197** | 0.5395 | 0.5240 | 0.69 |
 
 El resultado obtenido muestra que el **Ensamble Ponderado Phoenix** alcanza el mejor rendimiento global con un **AUC-ROC de 0.9197**, superando a los modelos individuales. Aunque XGBoost presenta una precisión promedio ligeramente superior, el ensamble ofrece mayor robustez al combinar modelos de boosting y bagging.
+
+
 
 ## Benchmarking propuesto vs. obtenido
 
