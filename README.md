@@ -4,6 +4,8 @@
 
 **Equipo:** Diego Alejandro Irreño - David Fernando López - Juan Camilo López - Edda Camila Rodríguez.
 
+**Video:** [Sustentación](https://youtu.be/N06jjvoMkDA)
+
 **Resultado:** [Despliegue de modelos](https://phoenixproject-ox9bydc5qbtjceqmyixxja.streamlit.app/)
 
 **Notebook:** [Notebook del proyecto](https://github.com/eddacamila/PhoenixProject/blob/main/OrderedLMPhoenixNew.ipynb)
